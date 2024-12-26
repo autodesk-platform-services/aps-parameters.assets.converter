@@ -1,0 +1,27 @@
+/**
+ * ref: https://codepen.io/timonwa/pen/dyaEVbp
+ */
+
+ .micromodal.loading-state {
+    width: 40px;
+    height: 40px;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.micromodal .loading {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    border: 4px solid #ddd;
+    border-top-color: grey;
+    animation: micromodal-loading 1s linear infinite;
+}
+
+@keyframes micromodal-loading {
+    to {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "aps-parameters.assets.converter",
+  "version": "1.0.0",
+  "description": "Autodesk APS sample app showing the capabilities of importing parameters to Assets custom attributes",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "autodesk",
+    "aps",
+    "autodesk build",
+    "assets",
+    "parameters"
+  ],
+  "author": "Eason Kang <eason.kang@autodesk.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-session": "^2.1.0",
+    "express": "^4.21.2",
+    "forge-apis": "^0.9.10"
+  }
+}
